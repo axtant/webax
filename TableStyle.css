@@ -1,0 +1,96 @@
+body{
+    background-color: #ffecd1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table,
+td {
+  border: 1px solid #333;
+  
+}
+th{
+    border: 2px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #ff7d00;
+  color: #ffecd1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}h2{
+    border-radius: 15px;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 50px 20px;
+    color: #ffecd1;
+    background-color: #15616d;
+}td{
+    text-transform: capitalize;
+}
+.bold{
+    font-weight: bold;
+}span.sirn{
+    color: rgb(185, 136, 12);
+    text-decoration:underline black dashed;
+}textarea{
+    background-color: #ecd9b6;
+}.mcqs{
+    font-family: 'Courier New'
+}fieldset{
+    width: 50%;
+}.center1{
+    margin-left: 35%;   
+}footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #2A2E45;
+    color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}button{
+    padding: 10px;
+    border-radius: 15px / 20px 15px;
+    background-color: #15616d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: #ffecd1;
+    
+}#buttonclass{
+    border-radius: 19px;
+    padding: 1px;
+    background-color: #ecd9b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    gap: 10px;
+    border-style:double;
+
+}button:hover{
+    background-color: #ff7d00;
+    box-shadow: black 1px 3px;
+}.middle{
+    display: flex;
+    
+    justify-content: center;
+
+}.learn{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px / 20px 15px;
+    border-style:double;
+    background-color:#ecd9b6;
+}.learn img:hover{
+    border-radius: 80%;
+    background-color: #d3b479;
+}.round-img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}.round-img img{
+    width: 100%;
+    height: auto;
+}
